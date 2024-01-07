@@ -1,0 +1,29 @@
+env:
+  browser: true
+  node: true
+  es2021: true
+extends:
+  - eslint:recommended
+  - plugin:@typescript-eslint/recommended
+  - prettier
+overrides: []
+parser: '@typescript-eslint/parser'
+parserOptions:
+  ecmaVersion: latest
+plugins:
+  - '@typescript-eslint'
+rules:
+  linebreak-style:
+    - 0
+    - unix
+  no-unused-vars:
+    - 0
+  '@typescript-eslint/no-unused-vars':
+    - 1
+    - argsIgnorePattern: '^_'
+  '@typescript-eslint/no-explicit-any':
+    - 0
+  '@typescript-eslint/no-namespace':
+    - 0
+  '@typescript-eslint/ban-ts-comment':
+    - 0

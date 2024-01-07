@@ -1,0 +1,62 @@
+{
+  "name": "@divlook/remote-store",
+  "description": "Remote store with Firestore",
+  "keywords": [
+    "remote store",
+    "firestore"
+  ],
+  "license": "MIT",
+  "author": {
+    "email": "uihyeon.cha@gmail.com",
+    "name": "uihyeon.cha",
+    "url": "https://github.com/divlook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/divlook/remote-store.git"
+  },
+  "homepage": "https://github.com/divlook/remote-store",
+  "bugs": {
+    "url": "https://github.com/divlook/remote-store/issues",
+    "email": "uihyeon.cha@gmail.com"
+  },
+  "private": true,
+  "version": "0.0.0",
+  "engines": {
+    "node": "18"
+  },
+  "scripts": {
+    "test": "vitest",
+    "sdk:build": "./scripts/sdk.build.sh",
+    "cli:build": "./scripts/cli.build.sh",
+    "cli:dev": "./scripts/setup.pre.sh && FIRESTORE_EMULATOR_HOST=\"127.0.0.1:8080\" ts-node -r tsconfig-paths/register ./src/cli",
+    "cli": "node build-cli/cli",
+    "firebase:emulators": "firebase emulators:start --only firestore"
+  },
+  "devDependencies": {
+    "@types/node": "^18",
+    "@types/semver": "^7.5.6",
+    "@typescript-eslint/eslint-plugin": "^6.13.2",
+    "@typescript-eslint/parser": "^6.13.2",
+    "eslint": "^8.55.0",
+    "eslint-config-prettier": "^9.1.0",
+    "prettier": "^3.1.0",
+    "rimraf": "^5.0.5",
+    "ts-node": "^10.9.2",
+    "tsc-alias": "^1.8.8",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.0",
+    "vite-plugin-dts": "^3.7.0",
+    "vitest": "^1.1.0"
+  },
+  "dependencies": {
+    "@commander-js/extra-typings": "^11.1.0",
+    "@react-native-firebase/firestore": "^18.7.3",
+    "commander": "^11.1.0",
+    "firebase": "^10.7.1",
+    "firebase-admin": "^12.0.0",
+    "semver": "^7.5.4",
+    "zod": "^3.22.4"
+  }
+}
