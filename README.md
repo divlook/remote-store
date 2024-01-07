@@ -242,6 +242,10 @@ npm run ios
 npm run android
 ```
 
+코드는 [examples/react-native/App.js](https://github.com/divlook/remote-store/blob/3e2f3e5d16474df42d0e9e861597d283fe98b467/examples/react-native/App.js#L1-L56) 파일을 참고해주세요.
+
+https://github.com/divlook/remote-store/blob/3e2f3e5d16474df42d0e9e861597d283fe98b467/examples/react-native/App.js#L1-L56
+
 ### SDK: Update scenario
 
 - IF minimum ≤ current AND next ≤ current
