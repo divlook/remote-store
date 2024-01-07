@@ -263,7 +263,7 @@ https://github.com/divlook/remote-store/blob/3e2f3e5d16474df42d0e9e861597d283fe9
 - ELSE
   - no update
 
-```mermaid
+```
 flowchart TD
     A[start] --> B{IF minimum ≤ current AND next ≤ current}
     B --> |YES| BA[latest]
@@ -277,6 +277,8 @@ flowchart TD
     BBBA --> |YES| BBBAA[required update]
     BBBA --> |NO| BBBAB[optional update]
 ```
+
+[![](https://mermaid.ink/svg/pako:eNp1ktFOgzAUhl-lOddsGZSyjagJZJp44byYNwrL0kDniNDOrmSbyAP4Fl74ZD6JBQIRor2iPf_5zhdyCohEzMCFbSqO0Y5KhR4WIUf6eMFB6fsajUZXyC9ub1CW8CTLM_T98YWiXErGFfKWC8TZSf1-LBuAX3e-P16v3pHvBSlV7KDWvdryXpdqdsXY5PtYhzYqyRi6RDxP0xbVY_le1dEaXLReg2zD7uBa8LNGdsq9cZU-F8eO4fUHeoFkr3kiWYyarvUg2Ezz_ICLYaLv3sh3v2zo3pf_E-cNeP-79eUqO7FXieA0bZNgQMZkRpNY70BR9YWgdixjIbj6M6byJYSQlzpHcyVWZx6Bq2TODGgIi4Q-S5qBu6XpQb_uKQe3gBO4GOOxYznYnDnmxJrahBhwBte2xoQQi2DLsfEcm05pwJsQmjAZTwmx55hYpjOfYGdGatxTXWxmsjhRQt41K1tvbvkD25nd6A?type=png)](https://mermaid.live/edit#pako:eNp1ktFOgzAUhl-lOddsGZSyjagJZJp44byYNwrL0kDniNDOrmSbyAP4Fl74ZD6JBQIRor2iPf_5zhdyCohEzMCFbSqO0Y5KhR4WIUf6eMFB6fsajUZXyC9ub1CW8CTLM_T98YWiXErGFfKWC8TZSf1-LBuAX3e-P16v3pHvBSlV7KDWvdryXpdqdsXY5PtYhzYqyRi6RDxP0xbVY_le1dEaXLReg2zD7uBa8LNGdsq9cZU-F8eO4fUHeoFkr3kiWYyarvUg2Ezz_ICLYaLv3sh3v2zo3pf_E-cNeP-79eUqO7FXieA0bZNgQMZkRpNY70BR9YWgdixjIbj6M6byJYSQlzpHcyVWZx6Bq2TODGgIi4Q-S5qBu6XpQb_uKQe3gBO4GOOxYznYnDnmxJrahBhwBte2xoQQi2DLsfEcm05pwJsQmjAZTwmx55hYpjOfYGdGatxTXWxmsjhRQt41K1tvbvkD25nd6A)
 
 
 ## Collections
